@@ -7,5 +7,3 @@ The simulation and implementation for Kyber Round 3 is based on the reference im
 For getting the overhead of error detection scheme over x86-64 architectures run to compile:
 
 gcc -Wall -Wextra -Wpedantic -Wmissing-prototypes -Wredundant-decls   -Wshadow -Wpointer-arith -mavx2 -mbmi2 -mpopcnt -maes   -march=native -mtune=native -O3 -fomit-frame-pointer main.c reduce.c ntt.c cpucycles.c speed_print.c
-
-For getting the overhead of error detection scheme over x86-64 architectures run to compile:
